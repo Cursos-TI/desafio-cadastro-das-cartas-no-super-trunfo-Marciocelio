@@ -28,7 +28,7 @@ scanf("%c", &estado);
 printf("Digite o codigo:");
 scanf ("%s", &codigo);
 
-printf("Digite o nome da Cidade");
+printf("Digite o nome da Cidade:");
 scanf ("%s", &cidade);
 
 printf("Digite o numero da população:");
@@ -62,7 +62,7 @@ printf("\n");
 printf("Digite o codigo:");
 scanf ("%s", &CODIGO);
 
-printf("Digite o nome da Cidade");
+printf("Digite o nome da Cidade:");
 scanf ("%s", &CIDADE);
 
 printf("Digite o numero da população:");
