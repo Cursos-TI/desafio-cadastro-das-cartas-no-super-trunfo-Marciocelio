@@ -105,13 +105,21 @@ printf("PIB: %.2f bilhões de reais\n", PIB2);
 printf("Número de Pontos Turísticos: %d \n", TURISTICO);
 
 
-//SEGUNDA ATIVIDA
+//SEGUNDA ATIVIDADE CARTA 01
 densidade =(populacao/area);
 printf("A Densidade Populacional da carta A é: %f\n", densidade); 
 
 PIBpercapta =(PIB/populacao);
 printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
 
+//SEGUNDA ATIVIDADE CARTA 02
+densidade =(POPULACAO/AREA);
+printf("A Densidade Populacional da carta A é: %f\n", densidade); 
 
-    return 0;
+PIBpercapta =(PIB2/POPULACAO);
+printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
+
+
+
+return 0;
 }
