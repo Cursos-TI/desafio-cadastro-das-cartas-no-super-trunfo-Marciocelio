@@ -11,6 +11,8 @@ int main() {
     float area = 692.618;
     float PIB = 62.900000000;
     int Turistico = 20;
+    float densidade;
+    float PIBpercapta;
 
     //BASE DA CARTA 2
 int CARTA =2;
@@ -21,7 +23,11 @@ int POPULACAO = 2428678;
 float AREA = 312.0353;
 float PIB2 = 67.02;
 int TURISTICO =23;
+float DESIDADE;
+float PIBPERCAPTA;
 
+
+//PESQUISA DA CARTA A
 printf("Digite o nome do estado:");
 scanf("%c", &estado);
 
@@ -45,9 +51,9 @@ scanf("%d", &Turistico);
 printf("\n");
 
 //RESULTADO DA DESCRIÇÃO CARTA N1
-printf("***Cartas do Super Trunfo*** \n");
-printf("\n");
-printf ("> DESCRICÃO CARTA: 01 \n");
+printf("***Cartas do Super Trunfo***1\n");
+
+printf ("> DESCRICÃO CARTA: 01\n");
 printf("Carta: %d \n", carta);
 printf("Estado: %s \n", estado);
 printf("Código: %c \n",codigo);
@@ -58,7 +64,15 @@ printf("PIB: %.2f bilhões de reais \n", PIB);
 printf("Número de Pontos Turísticos: %d \n", Turistico);
 printf("\n");
 
+//AULA 2 RESULTADO:
+densidade = (populacao / area);
+printf("A Densidade Populacional da carta A é: %f\n", densidade);
 
+PIBpercapta = (PIB/populacao);
+printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
+
+
+//PESQUISA DA CARTA B
 printf("Digite o codigo:");
 scanf ("%s", &CODIGO);
 
@@ -74,8 +88,9 @@ scanf ("%f", &AREA);
 printf("Digite o PIB:");
 scanf ("%f", &PIB2);
 
-printf("Digite o nímero de ponto turísticos:");
+printf("Digite o nímero de ponto turísticos:\n");
 scanf("%d \n", &TURISTICO);
+
 
 //RESULTADOS DA DESCRIÇÃO CARTA N2
 printf("\n");
@@ -88,9 +103,14 @@ printf("População: %d \n", POPULACAO);
 printf("Área: %2.f Km² \n", AREA);
 printf("PIB: %.2f bilhões de reais\n", PIB2);
 printf("Número de Pontos Turísticos: %d \n", TURISTICO);
-printf("\n");
 
 
+//SEGUNDA ATIVIDA
+densidade =(populacao/area);
+printf("A Densidade Populacional da carta A é: %f\n", densidade); 
+
+PIBpercapta =(PIB/populacao);
+printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
 
 
     return 0;
