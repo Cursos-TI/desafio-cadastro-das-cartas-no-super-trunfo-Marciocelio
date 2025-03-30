@@ -120,6 +120,5 @@ PIBpercapta =(PIB2/POPULACAO);
 printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
 
 
-
 return 0;
 }
