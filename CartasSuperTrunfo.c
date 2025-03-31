@@ -29,7 +29,7 @@ float PIBPERCAPTA;
 
 //PESQUISA DA CARTA A
 printf("Digite o nome do estado:");
-scanf("%c", &estado);
+scanf("%s", &estado);
 
 printf("Digite o codigo:");
 scanf ("%s", &codigo);
@@ -38,7 +38,7 @@ printf("Digite o nome da Cidade:");
 scanf ("%s", &cidade);
 
 printf("Digite o numero da população:");
-scanf("%s", &populacao );
+scanf("%d", &populacao );
 
 printf("Digite a área da cidade em quilômetros quadrados:");
 scanf ("%f", &area);
@@ -73,6 +73,10 @@ printf("O PIB per Capita da carta A é: %f\n", PIBpercapta);
 
 
 //PESQUISA DA CARTA B
+
+printf("Digite o nome do estado:");
+scanf("%s", &ESTADO);
+
 printf("Digite o codigo:");
 scanf ("%s", &CODIGO);
 
@@ -80,7 +84,7 @@ printf("Digite o nome da Cidade:");
 scanf ("%s", &CIDADE);
 
 printf("Digite o numero da população:");
-scanf("%s", &POPULACAO );
+scanf("%d", &POPULACAO );
 
 printf("Digite a área da cidade em quilômetros quadrados:");
 scanf ("%f", &AREA);
@@ -89,15 +93,15 @@ printf("Digite o PIB:");
 scanf ("%f", &PIB2);
 
 printf("Digite o nímero de ponto turísticos:\n");
-scanf("%d \n", &TURISTICO);
-
+scanf("%d", &TURISTICO);
 
 //RESULTADOS DA DESCRIÇÃO CARTA N2
 printf("\n");
 printf (">*** DESCRICÃO CARTA: 02*** \n");
+printf("\n");
 printf("Carta: %d \n",CARTA);
 printf("Estado: %s \n", ESTADO);
-printf("Código: %i \n", CODIGO);
+printf("Código: %s \n", CODIGO);
 printf("Nome da Cidade: %s \n", CIDADE);
 printf("População: %d \n", POPULACAO);
 printf("Área: %2.f Km² \n", AREA);
