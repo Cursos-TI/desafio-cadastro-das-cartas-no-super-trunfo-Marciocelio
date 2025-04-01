@@ -108,17 +108,11 @@ printf("PIB: %.2f bilhões de reais \n", PIB2);
 printf("Número de Pontos Turísticos: %d \n", Turistico2);
 printf("\n");
 
-densidade1 = (populacao2 / area1);
-PIBpercapta1 = (PIB2/populacao2);
+densidade2 = (populacao2 / area2);
+PIBpercapta2 = (PIB2/populacao2);
 
 printf("A Densisdade Populacional da carta A é: %.2f\n", densidade2);
 printf("O PIB per Capita da carta A é: %.2f\n", PIBpercapta2); 
-
-//double = calcularValorTotal (populacao1, area1, PIB1, Turistico1);
-//double = calcularValorTotral (populacao2, area2, PIB2, Turistico2);
-
-//printf("carta 01(%s) - valor total %2.f\n", estado1);
-//printf("carta 02(%s) - valor total %2.f\n", estado2);
 
 return 0;
 }
