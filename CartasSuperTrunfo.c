@@ -3,126 +3,122 @@
 int main() {
 
 //BASE DA CARTA 1
-    int carta =1;
-    char estado [40] = "Bahia";
-    char codigo [25]='B03';
-    char cidade [10] = "Salvador";
-    int populacao =2418005;
-    float area = 692.618;
-    float PIB = 62.900000000;
-    int Turistico = 20;
-    float densidade;
-    float PIBpercapta;
+int carta1;
+char estado1 [40];
+char codigo1 [20];
+char cidade1 [10];
+int populacao1;
+float area1;
+float PIB1;
+int Turistico1;
+float densidade1;
+float PIBpercapta1;
 
-    //BASE DA CARTA 2
-int CARTA =2;
-char ESTADO [10]= "Ceará";
-char CODIGO = 'C04';
-char CIDADE [20]= "Fortaleza";
-int POPULACAO = 2428678;
-float AREA = 312.0353;
-float PIB2 = 67.02;
-int TURISTICO =23;
-float DESIDADE;
-float PIBPERCAPTA;
+//BASE DA CARTA 2
+int carta2;
+char estado2 [40];
+char codigo2 [20];
+char cidade2 [10];
+int populacao2;
+float area2;
+float PIB2;
+int Turistico2;
+float densidade2;
+float PIBpercapta2;
 
 
 //PESQUISA DA CARTA A
 printf("Digite o nome do estado:");
-scanf("%s", &estado);
+scanf("%s", &estado1);
 
 printf("Digite o codigo:");
-scanf ("%s", &codigo);
+scanf ("%s", &codigo1);
 
 printf("Digite o nome da Cidade:");
-scanf ("%s", &cidade);
+scanf ("%s", &cidade1);
 
 printf("Digite o numero da população:");
-scanf("%d", &populacao );
+scanf("%d", &populacao1);
 
 printf("Digite a área da cidade em quilômetros quadrados:");
-scanf ("%f", &area);
+scanf ("%f", &area1);
 
 printf("Digite o PIB:");
-scanf ("%f", &PIB);
+scanf ("%f", &PIB1);
 
 printf("Digite o nímero de ponto turísticos:");
-scanf("%d", &Turistico);
+scanf("%d", &Turistico1);
 printf("\n");
 
 //RESULTADO DA DESCRIÇÃO CARTA N1
 printf("***Cartas do Super Trunfo***1\n");
 
 printf ("> DESCRICÃO CARTA: 01\n");
-printf("Carta: %d \n", carta);
-printf("Estado: %s \n", estado);
-printf("Código: %c \n",codigo);
-printf("Nome da Cidade: %s \n", cidade);
-printf("População: %d \n", populacao);
-printf("Àrea: %.2f Km²\n", area);
-printf("PIB: %.2f bilhões de reais \n", PIB);
-printf("Número de Pontos Turísticos: %d \n", Turistico);
+printf("Carta: %d \n", carta1);
+printf("Estado: %s \n", estado1);
+printf("Código: %c \n",codigo1);
+printf("Nome da Cidade: %s \n", cidade1);
+printf("População: %d \n", populacao1);
+printf("Àrea: %.2f Km²\n", area1);
+printf("PIB: %.2f bilhões de reais \n", PIB1);
+printf("Número de Pontos Turísticos: %d \n", Turistico1);
 printf("\n");
 
-//AULA 2 RESULTADO:
-densidade = (populacao / area);
-printf("A Densidade Populacional da carta A é: %f\n", densidade);
+densidade1 = (populacao1 / area1);
+PIBpercapta1 = (PIB1/populacao1);
 
-PIBpercapta = (PIB/populacao);
-printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
+printf("A Densisdade Populacional da carta A é: %.2f\n", densidade1);
+printf("O PIB per Capita da carta A é: %.2f\n", PIBpercapta1); 
 
-
+printf("\n");
 //PESQUISA DA CARTA B
-
+printf ("> DESCRICÃO CARTA: 02\n");
 printf("Digite o nome do estado:");
-scanf("%s", &ESTADO);
+scanf("%s", &estado2);
 
 printf("Digite o codigo:");
-scanf ("%s", &CODIGO);
+scanf ("%s", &codigo2);
 
 printf("Digite o nome da Cidade:");
-scanf ("%s", &CIDADE);
+scanf ("%s", &cidade2);
 
 printf("Digite o numero da população:");
-scanf("%d", &POPULACAO );
+scanf("%d", &populacao2);
 
 printf("Digite a área da cidade em quilômetros quadrados:");
-scanf ("%f", &AREA);
+scanf ("%f", &area2);
 
 printf("Digite o PIB:");
 scanf ("%f", &PIB2);
 
-printf("Digite o nímero de ponto turísticos:\n");
-scanf("%d", &TURISTICO);
-
-//RESULTADOS DA DESCRIÇÃO CARTA N2
+printf("Digite o nímero de ponto turísticos:");
+scanf("%d", &Turistico2);
 printf("\n");
-printf (">*** DESCRICÃO CARTA: 02*** \n");
+
+//RESULTADO DA DESCRIÇÃO CARTA N2
+
+printf ("> DESCRICÃO CARTA: 02\n");
+printf("Carta: %d \n", carta2);
+printf("Estado: %s \n", estado2);
+printf("Código: %c \n",codigo2);
+printf("Nome da Cidade: %s \n", cidade2);
+printf("População: %d \n", populacao2);
+printf("Àrea: %.2f Km²\n", area2);
+printf("PIB: %.2f bilhões de reais \n", PIB2);
+printf("Número de Pontos Turísticos: %d \n", Turistico2);
 printf("\n");
-printf("Carta: %d \n",CARTA);
-printf("Estado: %s \n", ESTADO);
-printf("Código: %s \n", CODIGO);
-printf("Nome da Cidade: %s \n", CIDADE);
-printf("População: %d \n", POPULACAO);
-printf("Área: %2.f Km² \n", AREA);
-printf("PIB: %.2f bilhões de reais\n", PIB2);
-printf("Número de Pontos Turísticos: %d \n", TURISTICO);
 
+densidade1 = (populacao2 / area1);
+PIBpercapta1 = (PIB2/populacao2);
 
-//SEGUNDA ATIVIDADE CARTA 01
-densidade =(populacao/area);
-printf("A Densidade Populacional da carta A é: %f\n", densidade); 
+printf("A Densisdade Populacional da carta A é: %.2f\n", densidade2);
+printf("O PIB per Capita da carta A é: %.2f\n", PIBpercapta2); 
 
-PIBpercapta =(PIB/populacao);
-printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
+double = calcularValorTotal (populacao1, area1, PIB1, Turistico1);
+double = calcularValorTotral (populacao2, area2, PIB2, Turistico2);
 
-//SEGUNDA ATIVIDADE CARTA 02
-densidade =(POPULACAO/AREA);
-printf("A Densidade Populacional da carta A é: %f\n", densidade); 
-
-PIBpercapta =(PIB2/POPULACAO);
-printf("O PIB per Capita da carta A é: %f\n", PIBpercapta); 
-
+printf("carta 01(%s) - valor total %2.f\n", estado1);
+printf("carta 02(%s) - valor total %2.f\n", estado2);
 
 return 0;
 }
