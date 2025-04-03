@@ -154,7 +154,7 @@ float inversoDensidade2 = 1 / densidade2;
 Superpoder2 = (float)populacao2 + area2 + PIB2 + Turistico2 + PIBpercapta2 + inversoDensidade2;
 
 printf("\n");
-printf("O Super Poder da carta B é: %.2f\n", Superpoder2);
+printf("O Super Poder da carta 2 é: %.2f\n", Superpoder2);
 printf("\n");
 
 // Comparação de Cartas
@@ -170,7 +170,7 @@ printf("PIB per Capita: Carta1 > Carta2: %d\n", PIBpercapta1 > PIBpercapta2);
 printf("Super Poder:Carta1 > Carta2: %d\n", Superpoder1 > Superpoder2);
 printf("\n");
 
-printf ("Resultado da comparação (1 para verdadeiro – Carta 1 vence – e 0 para falso – Carta 2 vence");
+printf ("Resultado da comparação: 1 para verdadeiro – Carta 1 vence – e 0 para falso – Carta 2 vence");
 
 return 0;
 
